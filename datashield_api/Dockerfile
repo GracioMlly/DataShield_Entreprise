@@ -3,7 +3,7 @@ FROM amazoncorretto:17
 
 
 # Spécifier le chemin du fichier JAR via un argument
-ARG JAR_FILE=./target/*.jar
+ARG JAR_FILE=./jarfile/*.jar
 
 # Copier le fichier JAR depuis le contexte de build dans l'image Docker
 COPY ${JAR_FILE} /app/api.jar
