@@ -1483,3 +1483,157 @@
 2024-07-19 11:53:47 +0000 08 ed517c5663d3 JOBLOG:80000000: Scheduled mail search index job for stopping for user postmaster@datashield.io
 2024-07-19 11:53:47 +0000 08 ed517c5663d3 JOBLOG:C0000000: Scheduled contact search index job for stopping for user postmaster@datashield.io
 2024-07-19 11:53:47 +0000 08 ed517c5663d3 JOBLOG:B0000000: Scheduled sort index job for stopping for user postmaster@datashield.io
+2024-07-19 12:52:43 +0000 08 ed517c5663d3 JOBLOG:80000000: Started mail search index job for user support@datashield.io
+2024-07-19 12:52:43 +0000 08 ed517c5663d3 JOBLOG:A0000000: Started calendar search index job for user support@datashield.io
+2024-07-19 12:52:43 +0000 08 ed517c5663d3 JOBLOG:C0000000: Started contact search index job for user support@datashield.io
+2024-07-19 12:52:43 +0000 08 ed517c5663d3 JOBLOG:B0000000: Started sort index job for user support@datashield.io
+2024-07-19 12:52:43 +0000 08 ed517c5663d3 JOBLOG:80000000: Started mail search index job for user contact@datashield.io
+2024-07-19 12:52:43 +0000 08 ed517c5663d3 JOBLOG:A0000000: Started calendar search index job for user contact@datashield.io
+2024-07-19 12:52:43 +0000 08 ed517c5663d3 JOBLOG:C0000000: Started contact search index job for user contact@datashield.io
+2024-07-19 12:52:43 +0000 08 ed517c5663d3 JOBLOG:B0000000: Started sort index job for user contact@datashield.io
+2024-07-19 12:52:43 +0000 08 ed517c5663d3 JOBLOG:80000000: Started mail search index job for user postmaster@datashield.io
+2024-07-19 12:52:43 +0000 08 ed517c5663d3 JOBLOG:C0000000: Started contact search index job for user postmaster@datashield.io
+2024-07-19 12:52:43 +0000 08 ed517c5663d3 JOBLOG:B0000000: Started sort index job for user postmaster@datashield.io
+2024-07-19 12:53:07 +0000 08 ed517c5663d3 JOBLOG:80000000: Scheduled mail search index job for stopping for user support@datashield.io
+2024-07-19 12:53:07 +0000 08 ed517c5663d3 JOBLOG:A0000000: Scheduled calendar search index job for stopping for user support@datashield.io
+2024-07-19 12:53:07 +0000 08 ed517c5663d3 JOBLOG:C0000000: Scheduled contact search index job for stopping for user support@datashield.io
+2024-07-19 12:53:07 +0000 08 ed517c5663d3 JOBLOG:B0000000: Scheduled sort index job for stopping for user support@datashield.io
+2024-07-19 12:53:37 +0000 08 ed517c5663d3 JOBLOG:80000000: Scheduled mail search index job for stopping for user contact@datashield.io
+2024-07-19 12:53:37 +0000 08 ed517c5663d3 JOBLOG:A0000000: Scheduled calendar search index job for stopping for user contact@datashield.io
+2024-07-19 12:53:37 +0000 08 ed517c5663d3 JOBLOG:C0000000: Scheduled contact search index job for stopping for user contact@datashield.io
+2024-07-19 12:53:37 +0000 08 ed517c5663d3 JOBLOG:B0000000: Scheduled sort index job for stopping for user contact@datashield.io
+2024-07-19 12:54:07 +0000 08 ed517c5663d3 JOBLOG:80000000: Scheduled mail search index job for stopping for user postmaster@datashield.io
+2024-07-19 12:54:07 +0000 08 ed517c5663d3 JOBLOG:C0000000: Scheduled contact search index job for stopping for user postmaster@datashield.io
+2024-07-19 12:54:07 +0000 08 ed517c5663d3 JOBLOG:B0000000: Scheduled sort index job for stopping for user postmaster@datashield.io
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 PROCESSING:003F3BBC: Shepherd thread received signal for delivery
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 PROCESSING:003F3BBC: Shepherd thread finished delivery signal
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 PROCESSING:003F3BBC: Start mail delivery
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 PROCESSING:003F3BBC: Set mail state to SENDING
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 PROCESSING:003F3BBC: Start remote delivery for 1 recipients in domain axigen.com
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 PROCESSING:003F3BBC: Relay mail using default host: <axigen.com:25>
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 DNR:003F3BBC: Search MX for 'axigen.com' (EDNS is on)
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 DNR:003F3BBC: Sending query (1/1) to 127.0.0.11:53
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 DNR:003F3BBC: Sending query (1/1) to 127.0.0.11:53
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 DNR:003F3BBC: 'a.mx.axigen.com' found MX '193.230.245.58' with priority 10
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 DNR:003F3BBC: Sending query (1/1) to 127.0.0.11:53
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 DNR:003F3BBC: 'a.mx.axigen.com' found MX '2a02:2a00:2c00:13::58' with priority 10
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 DNR:003F3BBC: Sending query (1/1) to 127.0.0.11:53
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 DNR:003F3BBC: 'd.mx.axigen.com' found MX '54.215.105.38' with priority 40
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 DNR:003F3BBC: Sending query (1/1) to 127.0.0.11:53
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 DNR:003F3BBC: 'd.mx.axigen.com' found MX '2600:1f1c:e59:c39:f864:d87:92f0:45f' with priority 40
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 PROCESSING:003F3BBC: Relay mail: found IPv6 MX entry 2a02:2a00:2c00:13::58 for domain axigen.com with priority 10
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 PROCESSING:003F3BBC: Relay mail: found IPv4 MX entry 193.230.245.58 for domain axigen.com with priority 10
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 PROCESSING:003F3BBC: Relay mail: found IPv6 MX entry 2600:1f1c:e59:c39:f864:d87:92f0:45f for domain axigen.com with priority 40
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 PROCESSING:003F3BBC: Relay mail: found IPv4 MX entry 54.215.105.38 for domain axigen.com with priority 40
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 PROCESSING:003F3BBC: Use 193.230.245.58 to relay mail 3F3BBC for domain axigen.com
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 SMTP-OUT:00000001: Relay mail 3F3BBC: connecting to 193.230.245.58:25
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 PROCESSING:003F3BBC: Start remote delivery for 1 recipients in domain localdomain
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 PROCESSING:003F3BBC: Relay mail using default host: <localdomain:25>
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 DNR:003F3BBC: Search MX for 'localdomain' (EDNS is on)
+2024-07-19 13:06:39 +0000 08 ed517c5663d3 DNR:003F3BBC: Sending query (1/1) to 127.0.0.11:53
+2024-07-19 13:06:43 +0000 08 ed517c5663d3 DNR:003F3BBC: Search NS for 'localdomain' (EDNS is on)
+2024-07-19 13:06:43 +0000 08 ed517c5663d3 DNR:003F3BBC: Sending query (1/1) to 127.0.0.11:53
+2024-07-19 13:06:47 +0000 02 ed517c5663d3 DNR:003F3BBC: DNS query failed - recursive queries disabled
+2024-07-19 13:06:47 +0000 08 ed517c5663d3 DNR:003F3BBC: 'localdomain' not found in DNS
+2024-07-19 13:06:47 +0000 08 ed517c5663d3 DNR:003F3BBC: Failed to get NS, adding NULL MX entry for key: localdomain
+2024-07-19 13:06:47 +0000 08 ed517c5663d3 DNR:003F3BBC: 'localdomain' not found in DNS
+2024-07-19 13:06:47 +0000 08 ed517c5663d3 PROCESSING:003F3BBC: Relay mail: MX Ip not found for domain localdomain; try A entries
+2024-07-19 13:06:47 +0000 08 ed517c5663d3 DNR:003F3BBC: Search A for 'localdomain' (EDNS is on)
+2024-07-19 13:06:47 +0000 08 ed517c5663d3 DNR:003F3BBC: Sending query (1/1) to 127.0.0.11:53
+2024-07-19 13:06:50 +0000 08 ed517c5663d3 DNR:003F3BBC: 'localdomain' not found in DNS
+2024-07-19 13:06:50 +0000 08 ed517c5663d3 DNR:003F3BBC: Search AAAA for 'localdomain' (EDNS is on)
+2024-07-19 13:06:50 +0000 08 ed517c5663d3 DNR:003F3BBC: Sending query (1/1) to 127.0.0.11:53
+2024-07-19 13:06:54 +0000 08 ed517c5663d3 DNR:003F3BBC: 'localdomain' not found in DNS
+2024-07-19 13:06:54 +0000 04 ed517c5663d3 PROCESSING:003F3BBC: Relay mail error: unable to resolve domain localdomain (temporary lookup error)
+2024-07-19 13:07:00 +0000 08 ed517c5663d3 SMTP-OUT:00000001: Relay mail 3F3BBC: unable to connect to 193.230.245.58:25: Connection refused
+2024-07-19 13:07:00 +0000 08 ed517c5663d3 SMTP-OUT:00000001: Use 2a02:2a00:2c00:13::58 to relay mail 3F3BBC for domain axigen.com
+2024-07-19 13:07:00 +0000 08 ed517c5663d3 SMTP-OUT:00000002: Relay mail 3F3BBC: connecting to 2a02:2a00:2c00:13::58:25
+2024-07-19 13:07:00 +0000 08 ed517c5663d3 SMTP-OUT:00000002: Relay mail 3F3BBC: unable to connect to 2a02:2a00:2c00:13::58:25: Network is unreachable
+2024-07-19 13:07:00 +0000 08 ed517c5663d3 SMTP-OUT:00000002: Use 54.215.105.38 to relay mail 3F3BBC for domain axigen.com
+2024-07-19 13:07:00 +0000 08 ed517c5663d3 SMTP-OUT:00000003: Relay mail 3F3BBC: connecting to 54.215.105.38:25
+2024-07-19 13:07:21 +0000 08 ed517c5663d3 SMTP-OUT:00000003: Relay mail 3F3BBC: unable to connect to 54.215.105.38:25: Connection refused
+2024-07-19 13:07:21 +0000 08 ed517c5663d3 SMTP-OUT:00000003: Use 2600:1f1c:e59:c39:f864:d87:92f0:45f to relay mail 3F3BBC for domain axigen.com
+2024-07-19 13:07:21 +0000 08 ed517c5663d3 SMTP-OUT:00000004: Relay mail 3F3BBC: connecting to 2600:1f1c:e59:c39:f864:d87:92f0:45f:25
+2024-07-19 13:07:21 +0000 08 ed517c5663d3 SMTP-OUT:00000004: Relay mail 3F3BBC: unable to connect to 2600:1f1c:e59:c39:f864:d87:92f0:45f:25: Network is unreachable
+2024-07-19 13:07:21 +0000 08 ed517c5663d3 SMTP-OUT:00000004: Relay mail 3F3BBC: no more relays for axigen.com
+2024-07-19 13:07:21 +0000 04 ed517c5663d3 SMTP-OUT:00000004: Delivery attempt completed for mail 3F3BBC; 2 recipients remaining; reschedule for delivery
+2024-07-19 13:07:21 +0000 08 ed517c5663d3 SMTP-OUT:00000004: Set mail state to SEND FAILURE
+2024-07-19 13:07:23 +0000 04 ed517c5663d3 PROCESSING:003F3BBC: 2 temporary failed recipients; compose temporary NDR
+2024-07-19 13:46:14 +0000 02 ed517c5663d3 WEBMAIL:00000000: SSL alert remote 172.27.0.1:54342, undefined:fatal:certificate unknown
+2024-07-19 13:46:14 +0000 02 ed517c5663d3 SERVER:00000000: SSL_accept error:0A000416:SSL routines::sslv3 alert certificate unknown
+2024-07-19 13:46:14 +0000 02 ed517c5663d3 WEBMAIL:00000000: SSL alert remote 172.27.0.1:54344, undefined:fatal:certificate unknown
+2024-07-19 13:46:14 +0000 02 ed517c5663d3 SERVER:00000000: SSL_accept error:0A000416:SSL routines::sslv3 alert certificate unknown
+2024-07-19 13:46:14 +0000 02 ed517c5663d3 WEBMAIL:00000000: SSL alert remote 172.27.0.1:54354, undefined:fatal:certificate unknown
+2024-07-19 13:46:14 +0000 02 ed517c5663d3 WEBMAIL:00000000: SSL alert remote 172.27.0.1:54340, undefined:fatal:certificate unknown
+2024-07-19 13:46:14 +0000 02 ed517c5663d3 SERVER:00000000: SSL_accept error:0A000416:SSL routines::sslv3 alert certificate unknown
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000002: [172.27.0.5:443] connection accepted from [172.27.0.1:54370]
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000003: [172.27.0.5:443] connection accepted from [172.27.0.1:54386]
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000004: [172.27.0.5:443] connection accepted from [172.27.0.1:54400]
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000003: HTTP: invalid session 9954eea039b84b4ad5f313f23213ea5e, not found in cache
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000004: HTTP: invalid session 9954eea039b84b4ad5f313f23213ea5e, not found in cache
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000002: HTTP: invalid session 9954eea039b84b4ad5f313f23213ea5e, not found in cache
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000002: Session expired: null
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000005: [172.27.0.5:443] connection accepted from [172.27.0.1:54398]
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000005: HTTP: invalid session 9954eea039b84b4ad5f313f23213ea5e, not found in cache
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000005: Session expired: null
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000003: Session expired: null
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000004: Session expired: null
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000002: <> GET /api/v1/conversations?folderId=56_78&sort=date&dir=DESC&start=0&limit=50&_h=9954eea039b84b4ad5f313f23213ea5e HTTP/1.1 u= code=401 time=111
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000002: connection closed with [172.27.0.1:54370]
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000005: <> GET /api/v1/account/indexinfo?ids[]=conversation&scope=56_78&_h=9954eea039b84b4ad5f313f23213ea5e HTTP/1.1 u= code=401 time=100
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000005: connection closed with [172.27.0.1:54398]
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000004: <> POST /SOAP.hsp?_h=9954eea039b84b4ad5f313f23213ea5e HTTP/1.1 u= code=200 time=132
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000003: <> POST /SOAP.hsp?_h=9954eea039b84b4ad5f313f23213ea5e HTTP/1.1 u= code=200 time=160
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000004: HTTP: invalid session 9954eea039b84b4ad5f313f23213ea5e, not found in cache
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000004: Session expired: null
+2024-07-19 13:46:14 +0000 08 ed517c5663d3 WEBMAIL:00000004: <> POST /SOAP.hsp?_h=9954eea039b84b4ad5f313f23213ea5e HTTP/1.1 u= code=200 time=103
+2024-07-19 13:46:16 +0000 08 ed517c5663d3 WEBMAIL:00000004: HTTP: invalid session 9954eea039b84b4ad5f313f23213ea5e, not found in cache
+2024-07-19 13:46:16 +0000 08 ed517c5663d3 WEBMAIL:00000004: Session expired: null
+2024-07-19 13:46:16 +0000 08 ed517c5663d3 WEBMAIL:00000004: <> POST /SOAP.hsp?_h=9954eea039b84b4ad5f313f23213ea5e HTTP/1.1 u= code=200 time=104
+2024-07-19 13:46:21 +0000 08 ed517c5663d3 WEBMAIL:00000004: HTTP: invalid session 9954eea039b84b4ad5f313f23213ea5e, not found in cache
+2024-07-19 13:46:21 +0000 08 ed517c5663d3 WEBMAIL:00000004: Session expired: null
+2024-07-19 13:46:21 +0000 08 ed517c5663d3 WEBMAIL:00000004: <> POST /SOAP.hsp?_h=9954eea039b84b4ad5f313f23213ea5e HTTP/1.1 u= code=200 time=104
+2024-07-19 13:46:24 +0000 08 ed517c5663d3 WEBMAIL:00000004: <> GET / HTTP/1.1 u= code=200 time=2
+2024-07-19 13:46:24 +0000 08 ed517c5663d3 WEBMAIL:00000003: <> GET /i18n_t.js HTTP/1.1 u= code=200 time=8
+2024-07-19 13:46:24 +0000 08 ed517c5663d3 WEBMAIL:00000004: <> GET /css/style_ajax.css?v=10523 HTTP/1.1 u= code=200 time=11
+2024-07-19 13:46:24 +0000 02 ed517c5663d3 WEBMAIL:00000000: SSL alert remote 172.27.0.1:41568, undefined:fatal:certificate unknown
+2024-07-19 13:46:24 +0000 02 ed517c5663d3 SERVER:00000000: previous line is repeated 1 time.
+2024-07-19 13:46:24 +0000 02 ed517c5663d3 SERVER:00000000: SSL_accept error:0A000416:SSL routines::sslv3 alert certificate unknown
+2024-07-19 13:46:24 +0000 02 ed517c5663d3 WEBMAIL:00000000: SSL alert remote 172.27.0.1:41604, undefined:fatal:certificate unknown
+2024-07-19 13:46:24 +0000 02 ed517c5663d3 SERVER:00000000: SSL_accept error:0A000416:SSL routines::sslv3 alert certificate unknown
+2024-07-19 13:46:24 +0000 08 ed517c5663d3 WEBMAIL:00000004: <> GET /js/lib_login.js?v=10523 HTTP/1.1 u= code=200 time=2
+2024-07-19 13:46:24 +0000 02 ed517c5663d3 WEBMAIL:00000000: SSL alert remote 172.27.0.1:41580, undefined:fatal:certificate unknown
+2024-07-19 13:46:24 +0000 02 ed517c5663d3 SERVER:00000000: SSL_accept error:0A000416:SSL routines::sslv3 alert certificate unknown
+2024-07-19 13:46:24 +0000 02 ed517c5663d3 WEBMAIL:00000000: SSL alert remote 172.27.0.1:41594, undefined:fatal:certificate unknown
+2024-07-19 13:46:24 +0000 08 ed517c5663d3 WEBMAIL:00000006: [172.27.0.5:443] connection accepted from [172.27.0.1:41620]
+2024-07-19 13:46:24 +0000 08 ed517c5663d3 WEBMAIL:00000003: <> GET /css/style_ajax_breeze.css?v=10523 HTTP/1.1 u= code=200 time=5
+2024-07-19 13:46:24 +0000 08 ed517c5663d3 WEBMAIL:00000006: <> GET /private/ajax/Libraries/Axi/Ext/widgets/layout/FormLayout.js?v=10523 HTTP/1.1 u= code=200 time=3
+2024-07-19 13:46:24 +0000 08 ed517c5663d3 WEBMAIL:00000007: [172.27.0.5:443] connection accepted from [172.27.0.1:41628]
+2024-07-19 13:46:24 +0000 08 ed517c5663d3 WEBMAIL:00000008: [172.27.0.5:443] connection accepted from [172.27.0.1:41638]
+2024-07-19 13:46:24 +0000 08 ed517c5663d3 WEBMAIL:00000007: <> GET /private/ajax/Classes/Messenger.js?v=10523 HTTP/1.1 u= code=200 time=94
+2024-07-19 13:46:24 +0000 08 ed517c5663d3 WEBMAIL:00000009: [172.27.0.5:443] connection accepted from [172.27.0.1:41652]
+2024-07-19 13:46:24 +0000 08 ed517c5663d3 WEBMAIL:00000004: <> GET /images/ajax/a-logo.svg HTTP/1.1 u= code=200 time=8
+2024-07-19 13:46:24 +0000 08 ed517c5663d3 WEBMAIL:00000003: <> GET /private/ajax/Resources/images/theme-breeze/loading-bg-breeze-rpeast-morespace.jpg HTTP/1.1 u= code=200 time=97
+2024-07-19 13:46:24 +0000 08 ed517c5663d3 WEBMAIL:00000007: <> GET /private/ajax/Resources/images/theme-breeze/dark-mode/loading-bg-breeze-rpeast-morespace.jpg HTTP/1.1 u= code=200 time=35
+2024-07-19 13:46:34 +0000 08 ed517c5663d3 WEBMAIL:00000007: <> GET / HTTP/1.1 u= code=200 time=3
+2024-07-19 13:46:34 +0000 08 ed517c5663d3 WEBMAIL:00000009: <> GET /css/style_ajax_breeze.css?v=10523 HTTP/1.1 u= code=200 time=0
+2024-07-19 13:46:34 +0000 08 ed517c5663d3 WEBMAIL:00000008: <> GET /css/style_ajax.css?v=10523 HTTP/1.1 u= code=200 time=2
+2024-07-19 13:46:34 +0000 08 ed517c5663d3 WEBMAIL:00000006: <> GET /css/axigen-web-fonts.css?v=10523 HTTP/1.1 u= code=200 time=2
+2024-07-19 13:46:34 +0000 08 ed517c5663d3 WEBMAIL:00000007: <> GET /i18n_t.js HTTP/1.1 u= code=200 time=117
+2024-07-19 13:46:34 +0000 08 ed517c5663d3 WEBMAIL:00000009: <> GET /js/lib_login.js?v=10523 HTTP/1.1 u= code=200 time=1
+2024-07-19 13:46:34 +0000 08 ed517c5663d3 WEBMAIL:00000004: <> GET /private/ajax/Resources/css/axi-custom-scrollbar.css?v=10523 HTTP/1.1 u= code=200 time=120
+2024-07-19 13:46:34 +0000 08 ed517c5663d3 WEBMAIL:00000008: <> GET /private/ajax/Libraries/Ext/adapter/ext/ext-base.js?v=10523 HTTP/1.1 u= code=200 time=5
+2024-07-19 13:46:34 +0000 08 ed517c5663d3 WEBMAIL:00000003: <> GET /private/ajax/Libraries/Ext/resources/css/ext-all.css?v=10523 HTTP/1.1 u= code=200 time=98
+2024-07-19 13:46:34 +0000 08 ed517c5663d3 WEBMAIL:00000004: <> GET /private/ajax/Classes/Messenger.js?v=10523 HTTP/1.1 u= code=200 time=1
+2024-07-19 13:46:34 +0000 08 ed517c5663d3 WEBMAIL:00000009: <> GET /private/ajax/Libraries/Axi/Ext/widgets/layout/FormLayout.js?v=10523 HTTP/1.1 u= code=200 time=0
+2024-07-19 13:46:34 +0000 08 ed517c5663d3 WEBMAIL:00000008: <> GET /private/ajax/Libraries/Axi/Axi.js?v=10523 HTTP/1.1 u= code=200 time=123
+2024-07-19 13:46:34 +0000 08 ed517c5663d3 WEBMAIL:00000003: <> GET /js/lib_thememode.js?v=10523 HTTP/1.1 u= code=200 time=49
+2024-07-19 13:46:34 +0000 08 ed517c5663d3 WEBMAIL:00000009: <> GET /private/ajax/Resources/images/theme-breeze/loading-bg-breeze-rpeast-morespace.jpg HTTP/1.1 u= code=200 time=80
+2024-07-19 13:46:34 +0000 08 ed517c5663d3 WEBMAIL:00000004: <> GET /js/CSP/CSP.js?v=10523 HTTP/1.1 u= code=200 time=75
+2024-07-19 13:46:35 +0000 08 ed517c5663d3 WEBMAIL:00000007: <> GET /private/ajax/Libraries/Axi/ext-fixes.js?v=10523 HTTP/1.1 u= code=200 time=181
+2024-07-19 13:46:35 +0000 08 ed517c5663d3 WEBMAIL:00000003: <> GET /fonts/Source_Sans_Pro_200.woff2 HTTP/1.1 u= code=200 time=92
+2024-07-19 13:46:35 +0000 08 ed517c5663d3 WEBMAIL:00000004: <> GET /images/ajax/a-logo.svg HTTP/1.1 u= code=200 time=0
+2024-07-19 13:46:35 +0000 08 ed517c5663d3 WEBMAIL:00000009: <> GET /fonts/Source_Sans_Pro_400.woff2 HTTP/1.1 u= code=200 time=98
+2024-07-19 13:46:35 +0000 08 ed517c5663d3 WEBMAIL:00000008: <> GET /fonts/Titillium_Web_200.woff2 HTTP/1.1 u= code=200 time=96
+2024-07-19 13:46:35 +0000 08 ed517c5663d3 WEBMAIL:00000006: <> GET /private/ajax/Libraries/Ext/ext-all.js?v=10523 HTTP/1.1 u= code=200 time=544
+2024-07-19 13:46:35 +0000 08 ed517c5663d3 WEBMAIL:00000006: <> GET /private/ajax/Resources/images/theme-breeze/dark-mode/loading-bg-breeze-rpeast-morespace.jpg HTTP/1.1 u= code=200 time=8

@@ -62,6 +62,20 @@ ensuite il faut taper la commande suivante :
 docker-compose up --build
 ```
 
+Une fois lancé et que tous les services on correctement démarré, on accede premièrement à notre site web via le lien suivant:
+
+```jsx
+webapp..datashield.io
+```
+
+Ensuite on accede a notre serveur de messagerie via le lien suivant: 
+
+```jsx
+127.0.0.1:555
+```
+
 2 - Cahier des charges
 
 3 - Topologie réseau et plan d’adressage
+
+![topologie_reseau01.png](/topologie_reseau01.png)
