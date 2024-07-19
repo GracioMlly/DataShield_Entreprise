@@ -24,9 +24,9 @@ LicenseKey {
     ExpiryDate = "Sat, 19 Jul 2025 00:00:00 +0000"
     MaintenanceDate = "Sat, 19 Jul 2025 00:00:00 +0000"
     TechnicalSupportExpiryDate = "Thu, 01 Jan 1970 00:00:00 +0000"
-    SubscriptionRenewalDate = "Fri, 19 Jul 2024 18:58:27 +0000"
+    SubscriptionRenewalDate = "Fri, 19 Jul 2024 20:39:43 +0000"
     Addons = (PublicAddressBook GSSAPI FTPBackup SNMP MobileWebmail Reporting Webmail)
-    CommtouchIntegrationExpiryDate = "Fri, 19 Jul 2024 18:58:27 +0000"
+    CommtouchIntegrationExpiryDate = "Fri, 19 Jul 2024 20:39:43 +0000"
     Type = Free
     PremiumMailboxCount = 10
     PremiumMailboxCountPerDomain = 10
@@ -41,8 +41,8 @@ LicenseKey {
     UsageReportTimeInterval = 0
     UsageReportDayOfWeek = 7
     UsageReportDisabled = no
-    CyrenASIntegrationExpiryDate = "Fri, 19 Jul 2024 18:58:27 +0000"
-    CyrenAVIntegrationExpiryDate = "Fri, 19 Jul 2024 18:58:27 +0000"
+    CyrenASIntegrationExpiryDate = "Fri, 19 Jul 2024 20:39:43 +0000"
+    CyrenAVIntegrationExpiryDate = "Fri, 19 Jul 2024 20:39:43 +0000"
     CyrenMKey = ""
     CyrenASMailboxCount = 0
     CyrenAVMailboxCount = 0
