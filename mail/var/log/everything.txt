@@ -1637,3 +1637,9 @@
 2024-07-19 13:46:35 +0000 08 ed517c5663d3 WEBMAIL:00000008: <> GET /fonts/Titillium_Web_200.woff2 HTTP/1.1 u= code=200 time=96
 2024-07-19 13:46:35 +0000 08 ed517c5663d3 WEBMAIL:00000006: <> GET /private/ajax/Libraries/Ext/ext-all.js?v=10523 HTTP/1.1 u= code=200 time=544
 2024-07-19 13:46:35 +0000 08 ed517c5663d3 WEBMAIL:00000006: <> GET /private/ajax/Resources/images/theme-breeze/dark-mode/loading-bg-breeze-rpeast-morespace.jpg HTTP/1.1 u= code=200 time=8
+2024-07-19 13:51:35 +0000 08 ed517c5663d3 WEBMAIL:00000007: connection closed with [172.27.0.1:41628]
+2024-07-19 13:51:35 +0000 08 ed517c5663d3 WEBMAIL:00000006: connection closed with [172.27.0.1:41620]
+2024-07-19 13:51:35 +0000 08 ed517c5663d3 WEBMAIL:00000008: connection closed with [172.27.0.1:41638]
+2024-07-19 13:51:35 +0000 08 ed517c5663d3 WEBMAIL:00000009: connection closed with [172.27.0.1:41652]
+2024-07-19 13:51:35 +0000 08 ed517c5663d3 WEBMAIL:00000004: connection closed with [172.27.0.1:54400]
+2024-07-19 13:51:35 +0000 08 ed517c5663d3 WEBMAIL:00000003: connection closed with [172.27.0.1:54386]
