@@ -1741,3 +1741,135 @@
 2024-07-19 18:59:02 +0000 08 9a915c802831 PROCESSING:00000000: Queue directory /axigen/var/queue// scan complete: 1 mails found; current queue size: 1
 2024-07-19 18:59:02 +0000 08 9a915c802831 WEBMAIL:00000000: Template <default> loaded in 0 seconds; public pages count: 62; private pages count: 518 (loaded in 0 seconds)
 2024-07-19 18:59:02 +0000 08 9a915c802831 WEBMAIL:00000000: Template HSP files loaded in 0 seconds; pages count: 580
+2024-07-19 20:20:56 +0000 04 e0fdc3414426 JOBLOG:50000000: Container '/axigen/var/domains/datashield.io/00.hsf' not closed properly; check counter is 13
+2024-07-19 20:20:57 +0000 04 e0fdc3414426 JOBLOG:50000000: Container '/axigen/var/domains/datashield.io/objects/00.hsf' not closed properly; check counter is 7
+2024-07-19 20:20:57 +0000 08 e0fdc3414426 SERVER:00000001: Perform LDAP manager startup for domain "datashield.io"
+2024-07-19 20:20:57 +0000 08 e0fdc3414426 SERVER:00000001: Loaded empty LDAP changes queue for domain datashield.io
+2024-07-19 20:20:57 +0000 08 e0fdc3414426 SERVER:00000001: Loaded empty LDAP changes queue for domain datashield.io
+2024-07-19 20:20:57 +0000 08 e0fdc3414426 SERVER:00000001: Persistent state loaded for domain datashield.io
+2024-07-19 20:20:57 +0000 08 e0fdc3414426 SERVER:00000001: No connector specified for LDAP synchronization on domain "datashield.io"
+2024-07-19 20:20:57 +0000 08 e0fdc3414426 JOBLOG:80000000: Started mail search index job for user postmaster@datashield.io
+2024-07-19 20:20:57 +0000 08 e0fdc3414426 JOBLOG:C0000000: Started contact search index job for user postmaster@datashield.io
+2024-07-19 20:20:57 +0000 08 e0fdc3414426 JOBLOG:B0000000: Started sort index job for user postmaster@datashield.io
+2024-07-19 20:20:57 +0000 08 e0fdc3414426 PROCESSING:00000000: Shepherd thread is started
+2024-07-19 20:20:57 +0000 08 e0fdc3414426 PROCESSING:00000000: Scanning queue subdirectory /axigen/var/queue//3F
+2024-07-19 20:20:57 +0000 08 e0fdc3414426 WEBMAIL:00000000: Template <default> loaded in 0 seconds; public pages count: 62; private pages count: 518 (loaded in 0 seconds)
+2024-07-19 20:20:57 +0000 08 e0fdc3414426 WEBMAIL:00000000: Template HSP files loaded in 0 seconds; pages count: 580
+2024-07-19 20:20:57 +0000 08 e0fdc3414426 CLI:00000001: [::1:7000] connection accepted from [::1:47810]
+2024-07-19 20:20:57 +0000 08 e0fdc3414426 CLI:00000001: closing session from [::1:47810]
+2024-07-19 20:20:57 +0000 08 e0fdc3414426 CLI:00000001: Session terminated : admin-user 'null'(id=0xFFFFFFFF) from ::1:47810
+2024-07-19 20:20:58 +0000 08 e0fdc3414426 PROCESSING:00000000: Queue directory /axigen/var/queue// scan complete: 1 mails found; current queue size: 1
+2024-07-19 20:20:59 +0000 04 e0fdc3414426 PROCESSING:003F3BBC: 2 temporary failed recipients; compose temporary NDR
+2024-07-19 20:21:01 +0000 08 e0fdc3414426 JOBLOG:70000000: LetsE: Acme job executing
+2024-07-19 20:21:01 +0000 08 e0fdc3414426 JOBLOG:70000000: LetsE: No cli jobs or renewals to do, going to sleep
+2024-07-19 20:21:46 +0000 08 e0fdc3414426 JOBLOG:80000000: Scheduled mail search index job for stopping for user postmaster@datashield.io
+2024-07-19 20:21:46 +0000 08 e0fdc3414426 JOBLOG:C0000000: Scheduled contact search index job for stopping for user postmaster@datashield.io
+2024-07-19 20:21:46 +0000 08 e0fdc3414426 JOBLOG:B0000000: Scheduled sort index job for stopping for user postmaster@datashield.io
+2024-07-19 20:24:18 +0000 04 b4c85a14564e JOBLOG:50000000: Container '/axigen/var/domains/datashield.io/00.hsf' not closed properly; check counter is 14
+2024-07-19 20:24:18 +0000 08 b4c85a14564e SERVER:00000001: Perform LDAP manager startup for domain "datashield.io"
+2024-07-19 20:24:18 +0000 08 b4c85a14564e SERVER:00000001: Loaded empty LDAP changes queue for domain datashield.io
+2024-07-19 20:24:18 +0000 08 b4c85a14564e SERVER:00000001: Loaded empty LDAP changes queue for domain datashield.io
+2024-07-19 20:24:18 +0000 08 b4c85a14564e SERVER:00000001: Persistent state loaded for domain datashield.io
+2024-07-19 20:24:18 +0000 08 b4c85a14564e SERVER:00000001: No connector specified for LDAP synchronization on domain "datashield.io"
+2024-07-19 20:24:19 +0000 08 b4c85a14564e JOBLOG:80000000: Started mail search index job for user postmaster@datashield.io
+2024-07-19 20:24:19 +0000 08 b4c85a14564e JOBLOG:C0000000: Started contact search index job for user postmaster@datashield.io
+2024-07-19 20:24:19 +0000 08 b4c85a14564e JOBLOG:B0000000: Started sort index job for user postmaster@datashield.io
+2024-07-19 20:24:19 +0000 08 b4c85a14564e PROCESSING:00000000: Shepherd thread is started
+2024-07-19 20:24:19 +0000 08 b4c85a14564e CLI:00000001: [::1:7000] connection accepted from [::1:36294]
+2024-07-19 20:24:19 +0000 08 b4c85a14564e CLI:00000001: closing session from [::1:36294]
+2024-07-19 20:24:19 +0000 08 b4c85a14564e CLI:00000001: Session terminated : admin-user 'null'(id=0xFFFFFFFF) from ::1:36294
+2024-07-19 20:24:19 +0000 08 b4c85a14564e PROCESSING:00000000: Scanning queue subdirectory /axigen/var/queue//3F
+2024-07-19 20:24:19 +0000 08 b4c85a14564e WEBMAIL:00000000: Template <default> loaded in 0 seconds; public pages count: 62; private pages count: 518 (loaded in 0 seconds)
+2024-07-19 20:24:19 +0000 08 b4c85a14564e WEBMAIL:00000000: Template HSP files loaded in 0 seconds; pages count: 580
+2024-07-19 20:24:19 +0000 08 b4c85a14564e PROCESSING:00000000: Queue directory /axigen/var/queue// scan complete: 1 mails found; current queue size: 1
+2024-07-19 20:24:21 +0000 04 b4c85a14564e PROCESSING:003F3BBC: 2 temporary failed recipients; compose temporary NDR
+2024-07-19 20:24:23 +0000 08 b4c85a14564e JOBLOG:70000000: LetsE: Acme job executing
+2024-07-19 20:24:23 +0000 08 b4c85a14564e JOBLOG:70000000: LetsE: No cli jobs or renewals to do, going to sleep
+2024-07-19 20:25:08 +0000 08 b4c85a14564e JOBLOG:80000000: Scheduled mail search index job for stopping for user postmaster@datashield.io
+2024-07-19 20:25:08 +0000 08 b4c85a14564e JOBLOG:C0000000: Scheduled contact search index job for stopping for user postmaster@datashield.io
+2024-07-19 20:25:08 +0000 08 b4c85a14564e JOBLOG:B0000000: Scheduled sort index job for stopping for user postmaster@datashield.io
+2024-07-19 20:32:55 +0000 08 b4c85a14564e SERVER:00000001: Perform LDAP manager startup for domain "datashield.io"
+2024-07-19 20:32:55 +0000 08 b4c85a14564e SERVER:00000001: Loaded empty LDAP changes queue for domain datashield.io
+2024-07-19 20:32:55 +0000 08 b4c85a14564e SERVER:00000001: Loaded empty LDAP changes queue for domain datashield.io
+2024-07-19 20:32:55 +0000 08 b4c85a14564e SERVER:00000001: Persistent state loaded for domain datashield.io
+2024-07-19 20:32:55 +0000 08 b4c85a14564e SERVER:00000001: No connector specified for LDAP synchronization on domain "datashield.io"
+2024-07-19 20:32:55 +0000 08 b4c85a14564e JOBLOG:80000000: Started mail search index job for user postmaster@datashield.io
+2024-07-19 20:32:55 +0000 08 b4c85a14564e JOBLOG:C0000000: Started contact search index job for user postmaster@datashield.io
+2024-07-19 20:32:55 +0000 08 b4c85a14564e JOBLOG:B0000000: Started sort index job for user postmaster@datashield.io
+2024-07-19 20:32:55 +0000 08 b4c85a14564e PROCESSING:00000000: Shepherd thread is started
+2024-07-19 20:32:55 +0000 08 b4c85a14564e CLI:00000001: [::1:7000] connection accepted from [::1:46648]
+2024-07-19 20:32:55 +0000 08 b4c85a14564e CLI:00000001: closing session from [::1:46648]
+2024-07-19 20:32:55 +0000 08 b4c85a14564e CLI:00000001: Session terminated : admin-user 'null'(id=0xFFFFFFFF) from ::1:46648
+2024-07-19 20:32:55 +0000 08 b4c85a14564e PROCESSING:00000000: Scanning queue subdirectory /axigen/var/queue//3F
+2024-07-19 20:32:56 +0000 08 b4c85a14564e WEBMAIL:00000000: Template <default> loaded in 1 seconds; public pages count: 62; private pages count: 518 (loaded in 1 seconds)
+2024-07-19 20:32:56 +0000 08 b4c85a14564e WEBMAIL:00000000: Template HSP files loaded in 1 seconds; pages count: 580
+2024-07-19 20:32:56 +0000 08 b4c85a14564e PROCESSING:00000000: Queue directory /axigen/var/queue// scan complete: 1 mails found; current queue size: 1
+2024-07-19 20:32:57 +0000 04 b4c85a14564e PROCESSING:003F3BBC: 2 temporary failed recipients; compose temporary NDR
+2024-07-19 20:32:59 +0000 08 b4c85a14564e JOBLOG:70000000: LetsE: Acme job executing
+2024-07-19 20:32:59 +0000 08 b4c85a14564e JOBLOG:70000000: LetsE: No cli jobs or renewals to do, going to sleep
+2024-07-19 20:33:50 +0000 04 c21cebcc8671 JOBLOG:50000000: Container '/axigen/var/domains/datashield.io/00.hsf' not closed properly; check counter is 15
+2024-07-19 20:33:50 +0000 04 c21cebcc8671 JOBLOG:50000000: Container '/axigen/var/domains/datashield.io/objects/00.hsf' not closed properly; check counter is 8
+2024-07-19 20:33:50 +0000 08 c21cebcc8671 SERVER:00000001: Perform LDAP manager startup for domain "datashield.io"
+2024-07-19 20:33:50 +0000 08 c21cebcc8671 SERVER:00000001: Loaded empty LDAP changes queue for domain datashield.io
+2024-07-19 20:33:50 +0000 08 c21cebcc8671 SERVER:00000001: Loaded empty LDAP changes queue for domain datashield.io
+2024-07-19 20:33:50 +0000 08 c21cebcc8671 SERVER:00000001: Persistent state loaded for domain datashield.io
+2024-07-19 20:33:50 +0000 08 c21cebcc8671 SERVER:00000001: No connector specified for LDAP synchronization on domain "datashield.io"
+2024-07-19 20:33:50 +0000 08 c21cebcc8671 JOBLOG:80000000: Started mail search index job for user postmaster@datashield.io
+2024-07-19 20:33:50 +0000 08 c21cebcc8671 JOBLOG:C0000000: Started contact search index job for user postmaster@datashield.io
+2024-07-19 20:33:50 +0000 08 c21cebcc8671 JOBLOG:B0000000: Started sort index job for user postmaster@datashield.io
+2024-07-19 20:33:50 +0000 08 c21cebcc8671 PROCESSING:00000000: Shepherd thread is started
+2024-07-19 20:33:50 +0000 08 c21cebcc8671 PROCESSING:00000000: Scanning queue subdirectory /axigen/var/queue//3F
+2024-07-19 20:33:50 +0000 08 c21cebcc8671 WEBMAIL:00000000: Template <default> loaded in 0 seconds; public pages count: 62; private pages count: 518 (loaded in 0 seconds)
+2024-07-19 20:33:50 +0000 08 c21cebcc8671 WEBMAIL:00000000: Template HSP files loaded in 0 seconds; pages count: 580
+2024-07-19 20:33:51 +0000 08 c21cebcc8671 PROCESSING:00000000: Queue directory /axigen/var/queue// scan complete: 1 mails found; current queue size: 1
+2024-07-19 20:33:51 +0000 08 c21cebcc8671 CLI:00000001: [::1:7000] connection accepted from [::1:53868]
+2024-07-19 20:33:51 +0000 08 c21cebcc8671 CLI:00000001: closing session from [::1:53868]
+2024-07-19 20:33:51 +0000 08 c21cebcc8671 CLI:00000001: Session terminated : admin-user 'null'(id=0xFFFFFFFF) from ::1:53868
+2024-07-19 20:33:52 +0000 04 c21cebcc8671 PROCESSING:003F3BBC: 2 temporary failed recipients; compose temporary NDR
+2024-07-19 20:33:54 +0000 08 c21cebcc8671 JOBLOG:70000000: LetsE: Acme job executing
+2024-07-19 20:33:54 +0000 08 c21cebcc8671 JOBLOG:70000000: LetsE: No cli jobs or renewals to do, going to sleep
+2024-07-19 20:34:39 +0000 08 c21cebcc8671 JOBLOG:80000000: Scheduled mail search index job for stopping for user postmaster@datashield.io
+2024-07-19 20:34:39 +0000 08 c21cebcc8671 JOBLOG:C0000000: Scheduled contact search index job for stopping for user postmaster@datashield.io
+2024-07-19 20:34:39 +0000 08 c21cebcc8671 JOBLOG:B0000000: Scheduled sort index job for stopping for user postmaster@datashield.io
+2024-07-19 20:38:31 +0000 08 8d2b3f9c7628 SERVER:00000001: Perform LDAP manager startup for domain "datashield.io"
+2024-07-19 20:38:31 +0000 08 8d2b3f9c7628 SERVER:00000001: Loaded empty LDAP changes queue for domain datashield.io
+2024-07-19 20:38:31 +0000 08 8d2b3f9c7628 SERVER:00000001: Loaded empty LDAP changes queue for domain datashield.io
+2024-07-19 20:38:31 +0000 08 8d2b3f9c7628 SERVER:00000001: Persistent state loaded for domain datashield.io
+2024-07-19 20:38:31 +0000 08 8d2b3f9c7628 SERVER:00000001: No connector specified for LDAP synchronization on domain "datashield.io"
+2024-07-19 20:38:31 +0000 08 8d2b3f9c7628 JOBLOG:80000000: Started mail search index job for user postmaster@datashield.io
+2024-07-19 20:38:31 +0000 08 8d2b3f9c7628 JOBLOG:C0000000: Started contact search index job for user postmaster@datashield.io
+2024-07-19 20:38:31 +0000 08 8d2b3f9c7628 JOBLOG:B0000000: Started sort index job for user postmaster@datashield.io
+2024-07-19 20:38:32 +0000 08 8d2b3f9c7628 PROCESSING:00000000: Shepherd thread is started
+2024-07-19 20:38:32 +0000 08 8d2b3f9c7628 CLI:00000001: [::1:7000] connection accepted from [::1:59780]
+2024-07-19 20:38:32 +0000 08 8d2b3f9c7628 CLI:00000001: closing session from [::1:59780]
+2024-07-19 20:38:32 +0000 08 8d2b3f9c7628 CLI:00000001: Session terminated : admin-user 'null'(id=0xFFFFFFFF) from ::1:59780
+2024-07-19 20:38:32 +0000 08 8d2b3f9c7628 WEBMAIL:00000000: Template <default> loaded in 0 seconds; public pages count: 62; private pages count: 518 (loaded in 0 seconds)
+2024-07-19 20:38:32 +0000 08 8d2b3f9c7628 WEBMAIL:00000000: Template HSP files loaded in 0 seconds; pages count: 580
+2024-07-19 20:38:32 +0000 08 8d2b3f9c7628 PROCESSING:00000000: Scanning queue subdirectory /axigen/var/queue//3F
+2024-07-19 20:38:32 +0000 08 8d2b3f9c7628 PROCESSING:00000000: Queue directory /axigen/var/queue// scan complete: 1 mails found; current queue size: 1
+2024-07-19 20:38:34 +0000 04 8d2b3f9c7628 PROCESSING:003F3BBC: 2 temporary failed recipients; compose temporary NDR
+2024-07-19 20:38:36 +0000 08 8d2b3f9c7628 JOBLOG:70000000: LetsE: Acme job executing
+2024-07-19 20:38:36 +0000 08 8d2b3f9c7628 JOBLOG:70000000: LetsE: No cli jobs or renewals to do, going to sleep
+2024-07-19 20:40:14 +0000 04 dd267647c2b0 JOBLOG:50000000: Container '/axigen/var/domains/datashield.io/objects/00.hsf' not closed properly; check counter is 9
+2024-07-19 20:40:14 +0000 08 dd267647c2b0 SERVER:00000001: Perform LDAP manager startup for domain "datashield.io"
+2024-07-19 20:40:14 +0000 08 dd267647c2b0 SERVER:00000001: Loaded empty LDAP changes queue for domain datashield.io
+2024-07-19 20:40:14 +0000 08 dd267647c2b0 SERVER:00000001: Loaded empty LDAP changes queue for domain datashield.io
+2024-07-19 20:40:14 +0000 08 dd267647c2b0 SERVER:00000001: Persistent state loaded for domain datashield.io
+2024-07-19 20:40:14 +0000 08 dd267647c2b0 SERVER:00000001: No connector specified for LDAP synchronization on domain "datashield.io"
+2024-07-19 20:40:14 +0000 08 dd267647c2b0 JOBLOG:80000000: Started mail search index job for user postmaster@datashield.io
+2024-07-19 20:40:14 +0000 08 dd267647c2b0 JOBLOG:C0000000: Started contact search index job for user postmaster@datashield.io
+2024-07-19 20:40:14 +0000 08 dd267647c2b0 JOBLOG:B0000000: Started sort index job for user postmaster@datashield.io
+2024-07-19 20:40:15 +0000 08 dd267647c2b0 PROCESSING:00000000: Shepherd thread is started
+2024-07-19 20:40:15 +0000 08 dd267647c2b0 PROCESSING:00000000: Scanning queue subdirectory /axigen/var/queue//3F
+2024-07-19 20:40:15 +0000 08 dd267647c2b0 WEBMAIL:00000000: Template <default> loaded in 0 seconds; public pages count: 62; private pages count: 518 (loaded in 0 seconds)
+2024-07-19 20:40:15 +0000 08 dd267647c2b0 WEBMAIL:00000000: Template HSP files loaded in 0 seconds; pages count: 580
+2024-07-19 20:40:15 +0000 08 dd267647c2b0 CLI:00000001: [::1:7000] connection accepted from [::1:45328]
+2024-07-19 20:40:15 +0000 08 dd267647c2b0 CLI:00000001: closing session from [::1:45328]
+2024-07-19 20:40:15 +0000 08 dd267647c2b0 CLI:00000001: Session terminated : admin-user 'null'(id=0xFFFFFFFF) from ::1:45328
+2024-07-19 20:40:15 +0000 08 dd267647c2b0 PROCESSING:00000000: Queue directory /axigen/var/queue// scan complete: 1 mails found; current queue size: 1
+2024-07-19 20:40:17 +0000 04 dd267647c2b0 PROCESSING:003F3BBC: 2 temporary failed recipients; compose temporary NDR
+2024-07-19 20:40:19 +0000 08 dd267647c2b0 JOBLOG:70000000: LetsE: Acme job executing
+2024-07-19 20:40:19 +0000 08 dd267647c2b0 JOBLOG:70000000: LetsE: No cli jobs or renewals to do, going to sleep
+2024-07-19 20:41:03 +0000 08 dd267647c2b0 JOBLOG:80000000: Scheduled mail search index job for stopping for user postmaster@datashield.io
+2024-07-19 20:41:03 +0000 08 dd267647c2b0 JOBLOG:C0000000: Scheduled contact search index job for stopping for user postmaster@datashield.io
+2024-07-19 20:41:03 +0000 08 dd267647c2b0 JOBLOG:B0000000: Scheduled sort index job for stopping for user postmaster@datashield.io
