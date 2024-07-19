@@ -45,7 +45,7 @@ Le contexte du projet est le déploiement de microservices au travers des techno
 Une fois sur le lien de notre projet, il faut première cloner le projet en local chez vous avant de faire quoi que ce soit en tapant la commande : 
 
 ```jsx
-git clone [https://github.com/shamuz-sa/DataShield_Entreprise.git](https://github.com/shamuz-sa/DataShield_Entreprise.git)
+git clone https://github.com/shamuz-sa/DataShield_Entreprise.git
 ```
 
 Après avoir cloné le projet, il faut ouvrir le dossier du projet dans votre terminal suivant le chemin: 
