@@ -1,0 +1,27 @@
+Authentication-Results: c3e796b47551; dkim=none
+Authentication-Results: c3e796b47551;
+ spf=pass smtp.mailfrom=Postmaster@c3e796b47551
+Subject: Trial period about to expire
+Date: Fri, 19 Jul 2024 10:24:22 +0000
+From: licensing@axigen.com
+Reply-to: international.sales@axigen.com
+To: postmaster@localdomain
+To: statistics@axigen.com
+Received-SPF: 
+X-AXIGEN-SPF-Result: Ok
+X-AXIGEN-DK-Result: No records
+DomainKey-Status: no signature
+X-AXIGEN-DKIM-Result: No records
+DKIM-Status: no signature
+X-Axi-Trial-Version: 1mpeA5Kj8oZ0kiJ5v4lrBkhtwuS1e6/T/t9PGNr2HuVL2FH/GoU5fMtEnCeD13fhcCO+8t06CQ0m6jC0KWpBHb8bEIy+bRs5i65xhDvOJ1NfKHT9J4QUd4fRUey89ArxHCDZe4yCxsIrlFWMkJDMZaCXa+A8gXYxPyFbPzRjIhM=
+
+You are using a trial version of Axigen Mail Server.
+The trial period will expire in 3 day(s). In order to continue to use
+the product you need a License Key.
+If you wish to purchase a commercial license, please contact your
+distributor or the Axigen's manufacturer at international.sales@axigen.com.
+
+_________________________
+This email was transferred using an evaluation version
+of AXIGEN Mail Server.
+

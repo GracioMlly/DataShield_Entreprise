@@ -1,0 +1,80 @@
+services:
+  app:
+    image: 'docker-spring-boot-postgres:latest'
+    build:
+      context: ./datashield_api
+      dockerfile: Dockerfile
+    container_name: app
+    depends_on:
+      - db
+    environment:
+      - POSTGRES_USER=D
+      - POSTGRES_PASSWORD=admin
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/api
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
+    ports:
+      - 8080:8080
+    command: mvn spring-boot:run
+
+  db:
+    # image: postgres:latest
+    build:
+      context: ./db
+      dockerfile: Dockerfile
+    restart: always
+    container_name: db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=api
+    command: ["postgres"]
+    ports:
+      - 5432:5432
+    volumes:
+      - ./db/db_data:/var/lib/postgresql/data
+
+  react-app:
+    build:
+      context: ./datashield
+      dockerfile: Dockerfile
+    ports:
+      - 80:5173
+    # volumes:
+    #   - .:/app
+    command: npm run dev
+      
+
+  dns:
+    image: ubuntu/bind9:latest
+    container_name: dns
+    # restart: unless-stopped
+    volumes:
+      - ./dns/config:/etc/bind
+      - ./dns/cache:/var/cache/bind
+      - ./dns/records:/var/lib/bind
+    environment:
+      - BIND9_USER=root
+      - TZ=America/New_York
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+
+  axigen:
+    image: axigen/axigen:10.5.23
+    container_name: axigen
+    restart: unless-stopped
+    ports:
+      - 25:25
+      - 9191:80
+      - 555:443
+      - 993:993
+      - 995:995
+      - 465:465
+      - 7000:7000
+      - 9000:9000
+      - 9443:9443
+    volumes:
+      - "./mail/var:/axigen/var"

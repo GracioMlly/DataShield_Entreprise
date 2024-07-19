@@ -1,0 +1,15 @@
+$TTL 2d
+$ORIGIN datashield.io.
+
+@           IN      SOA      ns.datashield.io. admin.datashield.io. (
+                                20230218		; serial number
+		                        12h			; refresh period
+		                        15m			    ; retry period
+		                        3w			; expire time
+		                        2h 			; negative TTL
+                                )
+@	        IN      NS      ns.datashield.io.
+
+ns			IN		A		127.0.0.1
+webapp		IN		A		127.0.0.1
+mail		IN		A 		127.0.0.1

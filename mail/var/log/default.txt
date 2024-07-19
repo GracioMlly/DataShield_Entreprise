@@ -1,0 +1,405 @@
+# created by AXIGEN version 10.5.23
+2024-07-19 10:23:24 +0000 08 c3e796b47551 PROCESSING:00000000: Shepherd thread is started
+2024-07-19 10:23:24 +0000 08 c3e796b47551 CLI:00000001: [::1:7000] connection accepted from [::1:40856]
+2024-07-19 10:23:24 +0000 08 c3e796b47551 CLI:00000001: closing session from [::1:40856]
+2024-07-19 10:23:24 +0000 08 c3e796b47551 CLI:00000001: Session terminated : admin-user 'null'(id=0xFFFFFFFF) from ::1:40856
+2024-07-19 10:23:26 +0000 08 c3e796b47551 PROCESSING:00000000: Queue directory /axigen/var/queue// scan complete: 0 mails found; current queue size: 0
+2024-07-19 10:23:42 +0000 08 c3e796b47551 JOBLOG:70000000: LetsE: Acme job executing
+2024-07-19 10:23:42 +0000 08 c3e796b47551 JOBLOG:70000000: LetsE: No cli jobs or renewals to do, going to sleep
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Shepherd thread received signal for processing
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set recipient <postmaster@localdomain> state to RECEIVED
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set recipient <statistics@axigen.com> state to RECEIVED
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set mail state to PROCESSING
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Start processing mail
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Filter AXI-TNEF loaded from file /axigen/afsl/axi-tnef.afsl
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set recipient <postmaster@localdomain> state to PROCESSING
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Start filter smtp routing
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Processing started
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Shepherd thread finished processing signal
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: No certificate loaded; disabling STARTTLS
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Greylist enabled
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set max data size to 10240 KB
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set max received headers to 30
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Maximum recipient count set to 1000
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Wait for processing response at least 10 seconds
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: STARTTLS extension allowed
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: 8BIT MIME accepted
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: BINARY DATA extension allowed
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: PIPELINING extension allowed
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set local delivery to all
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Created new queue item with id 00180274
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Auto-generate SPF result for MAIL FROM <Postmaster@c3e796b47551@c3e796b47551> issued from EHLO domain <c3e796b47551> connected from <0.0.0.0>: Pass (spfHeader = ''; spfExplanation = 'null')
+2024-07-19 10:24:22 +0000 04 c3e796b47551 PROCESSING:003F3BBC: Primary domain <localdomain> is not local; check configuration
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set recipient <postmaster@localdomain> state to PROCESSING ERROR
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Skip greylist for system session
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: DomainKeys verification result: no signature
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: DKIM verification result: no signature
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Non-delivered report  received from c3e796b47551 (0.0.0.0) with envelope recipients=1 (statistics@axigen.com), size=511, enqueued with id 180274 (orgid=3F3BBC)
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set recipient <statistics@axigen.com> state to FILTER DISCARD
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set recipient <statistics@axigen.com> state to PROCESSING
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set recipient <statistics@axigen.com> data version to 1
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:00180274: Set mail state to REMOVED
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Finished filtering mail object 3F3BBC with filter: smtp routing
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set recipient <postmaster@localdomain> state to PROCESSING ERROR
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set recipient <statistics@axigen.com> state to PROCESSING
+2024-07-19 10:24:22 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Start filter AV:Tnef of type socket filter from server
+2024-07-19 10:24:23 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Filter AXI-TNEF(127.0.0.1:8888):[PASS]: pass - no changes
+2024-07-19 10:24:23 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Finished filtering mail object 3F3BBC with filter: AV:Tnef of type socket filter from server
+2024-07-19 10:24:23 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set recipient <statistics@axigen.com> data version to 2
+2024-07-19 10:24:23 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set recipient <statistics@axigen.com> state to PROCESSING
+2024-07-19 10:24:23 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Start filter internal tag message
+2024-07-19 10:24:23 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Finished filtering mail object 3F3BBC with filter: internal tag message
+2024-07-19 10:24:23 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set recipient <statistics@axigen.com> data version to 3
+2024-07-19 10:24:23 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set recipient <statistics@axigen.com> state to PROCESSING
+2024-07-19 10:24:23 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Start filter onProcessing event
+2024-07-19 10:24:23 +0000 08 c3e796b47551 PROCESSING:003F3BBC: [onProcessing] No sender domain, domain keys signing may not run
+2024-07-19 10:24:23 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Finished filtering mail object 3F3BBC with filter: onProcessing event
+2024-07-19 10:24:23 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set recipient <statistics@axigen.com> state to PROCESSING
+2024-07-19 10:24:23 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set recipient <statistics@axigen.com> state to PROCESSED - RELAY
+2024-07-19 10:24:23 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Set mail state to PROCESSING ERROR
+2024-07-19 10:24:23 +0000 08 c3e796b47551 PROCESSING:003F3BBC: Processing finished
+2024-07-19 10:24:24 +0000 04 c3e796b47551 PROCESSING:003F3BBC: 1 temporary failed recipients; compose temporary NDR
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000004: [172.18.0.5:9000] connection accepted from [172.18.0.1:52794]
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000005: [172.18.0.5:9000] connection accepted from [172.18.0.1:52798]
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000004: <> GET / HTTP/1.1 u= code=200 time=2
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000004: <> GET /install HTTP/1.1 u= code=200 time=0
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000006: [172.18.0.5:9000] connection accepted from [172.18.0.1:52810]
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000007: [172.18.0.5:9000] connection accepted from [172.18.0.1:52820]
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000008: [172.18.0.5:9000] connection accepted from [172.18.0.1:52828]
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000004: <> GET /install/assets/css/styles.css?v=10523 HTTP/1.1 u= code=200 time=28
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000006: <> GET /css/default/axigen-web-fonts.css?v=10523 HTTP/1.1 u= code=200 time=1
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000005: <> GET /css/default/axigen-wa-icons.css?v=10523 HTTP/1.1 u= code=200 time=3
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000007: <> GET /css/default/general.css?v=10523 HTTP/1.1 u= code=200 time=0
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000008: <> GET /install/build/bundle.js HTTP/1.1 u= code=200 time=69
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000007: <> GET /images/login/login-bg.png HTTP/1.1 u= code=200 time=87
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000009: [172.18.0.5:9000] connection accepted from [172.18.0.1:52832]
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000006: <> GET /install/assets/images/axigen-logo-color-darkbg-a-filled.svg HTTP/1.1 u= code=200 time=0
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000005: <> GET /install/assets/images/blurred-bg-left.png HTTP/1.1 u= code=200 time=36
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000008: <> GET /install/assets/html/Eula.html HTTP/1.1 u= code=200 time=7
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000007: SupportInfo: connected to endpoint https://www.axigen.com:443
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000004: <> GET /install/assets/images/blurred-bg-main.jpg HTTP/1.1 u= code=200 time=19
+2024-07-19 10:24:26 +0000 08 c3e796b47551 WEBADMIN:00000009: <> GET /fonts/Titillium_Web_200.otf HTTP/1.1 u= code=200 time=20
+2024-07-19 10:24:27 +0000 08 c3e796b47551 WEBADMIN:00000008: <> GET /fonts/Source_Sans_Pro_400.otf HTTP/1.1 u= code=200 time=11
+2024-07-19 10:24:27 +0000 08 c3e796b47551 WEBADMIN:00000006: <> GET /fonts/Source_Sans_Pro_200.otf HTTP/1.1 u= code=200 time=125
+2024-07-19 10:24:27 +0000 08 c3e796b47551 WEBADMIN:00000005: <> GET /fonts/Source_Sans_Pro_600.otf HTTP/1.1 u= code=200 time=59
+2024-07-19 10:24:27 +0000 08 c3e796b47551 WEBADMIN:00000006: <> GET /js/lib_jquery.js HTTP/1.1 u= code=200 time=35
+2024-07-19 10:24:27 +0000 08 c3e796b47551 WEBADMIN:00000008: <> GET /css/default/m-custom-scrollbar-axi.css HTTP/1.1 u= code=200 time=0
+2024-07-19 10:24:27 +0000 08 c3e796b47551 WEBADMIN:00000009: <> GET /css/default/axigen-web-fonts.css HTTP/1.1 u= code=200 time=30
+2024-07-19 10:24:27 +0000 08 c3e796b47551 WEBADMIN:00000004: <> GET /css/default/m-custom-scrollbar.css HTTP/1.1 u= code=200 time=42
+2024-07-19 10:24:27 +0000 08 c3e796b47551 WEBADMIN:00000005: <> GET /js/lib_m_custom_scrollbar.js HTTP/1.1 u= code=200 time=2
+2024-07-19 10:24:27 +0000 08 c3e796b47551 WEBADMIN:00000005: <> GET /fonts/Source_Sans_Pro_700.woff2 HTTP/1.1 u= code=200 time=1
+2024-07-19 10:24:27 +0000 08 c3e796b47551 WEBADMIN:00000005: <> GET /favicon.ico?v=10523 HTTP/1.1 u= code=200 time=0
+2024-07-19 10:24:28 +0000 08 c3e796b47551 WEBADMIN:00000007: SupportInfo: POST response code for endpoint https://www.axigen.com:443 is 200
+2024-07-19 10:24:28 +0000 08 c3e796b47551 WEBADMIN:00000007: <> POST /install/api/index.hsp HTTP/1.1 u= code=200 time=1984
+2024-07-19 10:24:28 +0000 08 c3e796b47551 WEBADMIN:00000007: SupportInfo: connected to endpoint https://www.axigen.com:443
+2024-07-19 10:24:29 +0000 08 c3e796b47551 WEBADMIN:00000007: SupportInfo: POST response code for endpoint https://www.axigen.com:443 is 200
+2024-07-19 10:24:29 +0000 08 c3e796b47551 WEBADMIN:00000007: <> POST /install/api/index.hsp HTTP/1.1 u= code=200 time=630
+2024-07-19 10:24:29 +0000 08 c3e796b47551 WEBADMIN:00000007: connection closed with [172.18.0.1:52820]
+2024-07-19 10:24:29 +0000 08 c3e796b47551 WEBADMIN:00000004: connection closed with [172.18.0.1:52794]
+2024-07-19 10:24:29 +0000 08 c3e796b47551 WEBADMIN:00000008: connection closed with [172.18.0.1:52828]
+2024-07-19 10:24:29 +0000 08 c3e796b47551 WEBADMIN:00000005: connection closed with [172.18.0.1:52798]
+2024-07-19 10:24:29 +0000 08 c3e796b47551 WEBADMIN:00000009: connection closed with [172.18.0.1:52832]
+2024-07-19 10:24:29 +0000 08 c3e796b47551 WEBADMIN:00000006: connection closed with [172.18.0.1:52810]
+2024-07-19 10:24:36 +0000 08 c3e796b47551 WEBADMIN:0000000A: [172.18.0.5:9000] connection accepted from [172.18.0.1:54340]
+2024-07-19 10:24:36 +0000 08 c3e796b47551 WEBADMIN:0000000A: SupportInfo: connected to endpoint https://www.axigen.com:443
+2024-07-19 10:24:37 +0000 08 c3e796b47551 WEBADMIN:0000000A: SupportInfo: POST response code for endpoint https://www.axigen.com:443 is 200
+2024-07-19 10:24:37 +0000 08 c3e796b47551 WEBADMIN:0000000A: <> POST /install/api/index.hsp HTTP/1.1 u= code=200 time=638
+2024-07-19 10:24:39 +0000 08 c3e796b47551 WEBADMIN:0000000A: connection closed with [172.18.0.1:54340]
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000B: [172.18.0.5:9000] connection accepted from [172.18.0.1:37484]
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000C: [172.18.0.5:9000] connection accepted from [172.18.0.1:37500]
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000C: <> GET /images/default/ajax-loader-big-darkbg-blue.svg HTTP/1.1 u= code=200 time=3
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000B: <> POST /install/api/index.hsp HTTP/1.1 u= code=200 time=10
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000B: New session 0x476493C1 associated with this connection
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000B: Admin-user "admin" (id=0x00000000): login from 172.18.0.1:37484
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000B: <> GET /?action=login&username=admin&password=P%40scal90 HTTP/1.1 u= code=303 time=3
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000B: Filter AVG AntiVirus Filter loaded from file /axigen/afsl/avg.afsl
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Shepherd thread received signal for processing
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000B: Filter AVAST loaded from file /axigen/afsl/avast-av.afsl
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Set recipient <filterDetect-00372893@~filter-test> state to RECEIVED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Set mail state to PROCESSING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Start processing mail
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Set recipient <filterDetect-00372893@~filter-test> state to PROCESSING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Start filter <filterDetect-00372893>
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Processing started
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Shepherd thread finished processing signal
+2024-07-19 10:25:12 +0000 02 c3e796b47551 PROCESSING:00372893: Filter AVG AntiVirus Filter(127.0.0.1:55555):[ERROR]: Could not connect to filter
+2024-07-19 10:25:12 +0000 02 c3e796b47551 PROCESSING:00372893: Error connecting to socket filter: AVG AntiVirus Filter(127.0.0.1:55555)
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Finished filtering mail object 372893 with filter: <filterDetect-00372893>
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Set recipient <filterDetect-00372893@~filter-test> state to PROCESSING ERROR
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Start filter discarder
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Finished filtering mail object 372893 with filter: discarder
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Set recipient <filterDetect-00372893@~filter-test> state to FILTER DISCARD
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Set recipient <filterDetect-00372893@~filter-test> state to SENT
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Set mail state to PROCESSED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Processing finished
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Shepherd thread received signal for delivery
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Shepherd thread finished delivery signal
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: No recipient is ready for delivery
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Set mail state to SENDING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Delivery attempt completed for mail 372893; schedule for cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Set mail state to SENT
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Shepherd thread received signal for cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Start mail cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Mail removed from queue
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Set mail state to REMOVED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00372893: Shepherd thread finished cleanup signal
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Shepherd thread received signal for processing
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000B: Filter AVAST loaded from file /axigen/afsl/avast-av.afsl
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Set recipient <filterDetect-0023445B@~filter-test> state to RECEIVED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Set mail state to PROCESSING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Start processing mail
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Set recipient <filterDetect-0023445B@~filter-test> state to PROCESSING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Start filter <filterDetect-0023445B>
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Processing started
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Shepherd thread finished processing signal
+2024-07-19 10:25:12 +0000 02 c3e796b47551 PROCESSING:0023445B: Filter AVAST(127.0.0.1:5036):[ERROR]: Could not connect to filter
+2024-07-19 10:25:12 +0000 02 c3e796b47551 PROCESSING:0023445B: Error connecting to socket filter: AVAST(127.0.0.1:5036)
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Finished filtering mail object 23445B with filter: <filterDetect-0023445B>
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Set recipient <filterDetect-0023445B@~filter-test> state to PROCESSING ERROR
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Start filter discarder
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Finished filtering mail object 23445B with filter: discarder
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Set recipient <filterDetect-0023445B@~filter-test> state to FILTER DISCARD
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Set recipient <filterDetect-0023445B@~filter-test> state to SENT
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Set mail state to PROCESSED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Processing finished
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Shepherd thread received signal for delivery
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Shepherd thread finished delivery signal
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: No recipient is ready for delivery
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Set mail state to SENDING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Delivery attempt completed for mail 23445B; schedule for cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Set mail state to SENT
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Shepherd thread received signal for cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Start mail cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Mail removed from queue
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Set mail state to REMOVED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0023445B: Shepherd thread finished cleanup signal
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Shepherd thread received signal for processing
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000B: Filter ClamAV loaded from file /axigen/afsl/clam-av.afsl
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Set recipient <filterDetect-001403D6@~filter-test> state to RECEIVED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Set mail state to PROCESSING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Start processing mail
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Set recipient <filterDetect-001403D6@~filter-test> state to PROCESSING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Start filter <filterDetect-001403D6>
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Processing started
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Shepherd thread finished processing signal
+2024-07-19 10:25:12 +0000 02 c3e796b47551 PROCESSING:001403D6: Error connecting to socket filter: AVAST(/var/run/avast4/local.sock) reason: No such file or directory
+2024-07-19 10:25:12 +0000 02 c3e796b47551 PROCESSING:001403D6: Error connecting
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Finished filtering mail object 1403D6 with filter: <filterDetect-001403D6>
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Set recipient <filterDetect-001403D6@~filter-test> state to PROCESSING ERROR
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Start filter discarder
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Finished filtering mail object 1403D6 with filter: discarder
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Set recipient <filterDetect-001403D6@~filter-test> state to FILTER DISCARD
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Set recipient <filterDetect-001403D6@~filter-test> state to SENT
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Set mail state to PROCESSED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Processing finished
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Shepherd thread received signal for delivery
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Shepherd thread finished delivery signal
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: No recipient is ready for delivery
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Set mail state to SENDING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Delivery attempt completed for mail 1403D6; schedule for cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Set mail state to SENT
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Shepherd thread received signal for cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Start mail cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Mail removed from queue
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Set mail state to REMOVED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001403D6: Shepherd thread finished cleanup signal
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Shepherd thread received signal for processing
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000B: Filter SpamAssassin Filter loaded from file /axigen/afsl/spamassassin.afsl
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Set recipient <filterDetect-0006C41D@~filter-test> state to RECEIVED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Set mail state to PROCESSING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Start processing mail
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Set recipient <filterDetect-0006C41D@~filter-test> state to PROCESSING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Start filter <filterDetect-0006C41D>
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Processing started
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Shepherd thread finished processing signal
+2024-07-19 10:25:12 +0000 02 c3e796b47551 PROCESSING:0006C41D: Filter ClamAV(127.0.0.1:3310):[ERROR]: Could not connect to filter
+2024-07-19 10:25:12 +0000 02 c3e796b47551 PROCESSING:0006C41D: Error connecting to socket filter: ClamAV(127.0.0.1:3310)
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Finished filtering mail object 06C41D with filter: <filterDetect-0006C41D>
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Set recipient <filterDetect-0006C41D@~filter-test> state to PROCESSING ERROR
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Start filter discarder
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Finished filtering mail object 06C41D with filter: discarder
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Set recipient <filterDetect-0006C41D@~filter-test> state to FILTER DISCARD
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Set recipient <filterDetect-0006C41D@~filter-test> state to SENT
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Set mail state to PROCESSED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Processing finished
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Shepherd thread received signal for delivery
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Shepherd thread finished delivery signal
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: No recipient is ready for delivery
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Set mail state to SENDING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Delivery attempt completed for mail 06C41D; schedule for cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Set mail state to SENT
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Shepherd thread received signal for cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Start mail cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Mail removed from queue
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Set mail state to REMOVED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:0006C41D: Shepherd thread finished cleanup signal
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Shepherd thread received signal for processing
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000B: Filter AXI-TNEF loaded from file /axigen/afsl/axi-tnef.afsl
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Set recipient <filterDetect-000B712A@~filter-test> state to RECEIVED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Set mail state to PROCESSING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Start processing mail
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Set recipient <filterDetect-000B712A@~filter-test> state to PROCESSING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Start filter <filterDetect-000B712A>
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Processing started
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Shepherd thread finished processing signal
+2024-07-19 10:25:12 +0000 02 c3e796b47551 PROCESSING:000B712A: Filter SpamAssassin Filter(127.0.0.1:783):[ERROR]: Could not connect to filter
+2024-07-19 10:25:12 +0000 02 c3e796b47551 PROCESSING:000B712A: Error connecting to socket filter: SpamAssassin Filter(127.0.0.1:783)
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Finished filtering mail object 0B712A with filter: <filterDetect-000B712A>
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Set recipient <filterDetect-000B712A@~filter-test> state to PROCESSING ERROR
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Start filter discarder
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Finished filtering mail object 0B712A with filter: discarder
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Set recipient <filterDetect-000B712A@~filter-test> state to FILTER DISCARD
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Set recipient <filterDetect-000B712A@~filter-test> state to SENT
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Set mail state to PROCESSED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Processing finished
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Shepherd thread received signal for delivery
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Shepherd thread finished delivery signal
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: No recipient is ready for delivery
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Set mail state to SENDING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Delivery attempt completed for mail 0B712A; schedule for cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Set mail state to SENT
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Shepherd thread received signal for cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Start mail cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Mail removed from queue
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Set mail state to REMOVED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:000B712A: Shepherd thread finished cleanup signal
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Shepherd thread received signal for processing
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000B: Filter BD loaded from file /axigen/afsl/bd.afsl
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Set recipient <filterDetect-001A58D9@~filter-test> state to RECEIVED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Set mail state to PROCESSING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Start processing mail
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Set recipient <filterDetect-001A58D9@~filter-test> state to PROCESSING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Start filter <filterDetect-001A58D9>
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Processing started
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Shepherd thread finished processing signal
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Shepherd thread received signal for processing
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000B: <1faf0329dace3ff5342370c42bcdf6ee> GET /?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=406
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Set recipient <filterDetect-00306892@~filter-test> state to RECEIVED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Set mail state to PROCESSING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Start processing mail
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Set recipient <filterDetect-00306892@~filter-test> state to PROCESSING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Start filter <filterDetect-00306892>
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Processing started
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Shepherd thread finished processing signal
+2024-07-19 10:25:12 +0000 02 c3e796b47551 PROCESSING:00306892: Filter BD(127.0.0.1:1344):[ERROR]: Could not connect to filter
+2024-07-19 10:25:12 +0000 02 c3e796b47551 PROCESSING:00306892: Error connecting to socket filter: BD(127.0.0.1:1344)
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Finished filtering mail object 306892 with filter: <filterDetect-00306892>
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Set recipient <filterDetect-00306892@~filter-test> state to PROCESSING ERROR
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Start filter discarder
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Finished filtering mail object 306892 with filter: discarder
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Set recipient <filterDetect-00306892@~filter-test> state to FILTER DISCARD
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Set recipient <filterDetect-00306892@~filter-test> state to SENT
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Set mail state to PROCESSED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Processing finished
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Shepherd thread received signal for delivery
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Shepherd thread finished delivery signal
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: No recipient is ready for delivery
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Set mail state to SENDING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Delivery attempt completed for mail 306892; schedule for cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Set mail state to SENT
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Shepherd thread received signal for cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Start mail cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Mail removed from queue
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Set mail state to REMOVED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000B: <1faf0329dace3ff5342370c42bcdf6ee> GET /install?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=49
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Filter AXI-TNEF(127.0.0.1:8888):[PASS]: pass - no changes
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:00306892: Shepherd thread finished cleanup signal
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Finished filtering mail object 1A58D9 with filter: <filterDetect-001A58D9>
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Set recipient <filterDetect-001A58D9@~filter-test> data version to 1
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Set recipient <filterDetect-001A58D9@~filter-test> state to PROCESSING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Start filter discarder
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Finished filtering mail object 1A58D9 with filter: discarder
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Set recipient <filterDetect-001A58D9@~filter-test> state to FILTER DISCARD
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Set recipient <filterDetect-001A58D9@~filter-test> state to SENT
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Set mail state to PROCESSED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Processing finished
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Shepherd thread received signal for delivery
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Shepherd thread finished delivery signal
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: No recipient is ready for delivery
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Set mail state to SENDING
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Delivery attempt completed for mail 1A58D9; schedule for cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Set mail state to SENT
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Shepherd thread received signal for cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Start mail cleanup
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Mail removed from queue
+2024-07-19 10:25:12 +0000 08 c3e796b47551 PROCESSING:001A58D9: Set mail state to REMOVED
+2024-07-19 10:25:12 +0000 08 c3e796b47551 WEBADMIN:0000000B: <1faf0329dace3ff5342370c42bcdf6ee> GET /install?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=19
+2024-07-19 10:25:13 +0000 08 c3e796b47551 PROCESSING:001A58D9: Shepherd thread finished cleanup signal
+2024-07-19 10:25:13 +0000 08 c3e796b47551 WEBADMIN:0000000B: <1faf0329dace3ff5342370c42bcdf6ee> POST /api?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=24
+2024-07-19 10:25:13 +0000 08 c3e796b47551 WEBADMIN:0000000B: SupportInfo: connected to endpoint https://www.axigen.com:443
+2024-07-19 10:25:13 +0000 08 c3e796b47551 WEBADMIN:00000013: [172.18.0.5:9000] connection accepted from [172.18.0.1:44266]
+2024-07-19 10:25:13 +0000 08 c3e796b47551 WEBADMIN:0000000C: <1faf0329dace3ff5342370c42bcdf6ee> GET /fonts/Source_Sans_Pro_900.woff2 HTTP/1.1 u= code=200 time=4
+2024-07-19 10:25:13 +0000 08 c3e796b47551 WEBADMIN:00000013: <1faf0329dace3ff5342370c42bcdf6ee> GET /fonts/Source_Sans_Pro_300.otf HTTP/1.1 u= code=200 time=46
+2024-07-19 10:25:14 +0000 08 c3e796b47551 WEBADMIN:0000000B: SupportInfo: POST response code for endpoint https://www.axigen.com:443 is 200
+2024-07-19 10:25:14 +0000 08 c3e796b47551 WEBADMIN:0000000B: <1faf0329dace3ff5342370c42bcdf6ee> POST /api?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=669
+2024-07-19 10:25:14 +0000 08 c3e796b47551 WEBADMIN:0000000B: SupportInfo: connected to endpoint https://www.axigen.com:443
+2024-07-19 10:25:15 +0000 08 c3e796b47551 WEBADMIN:0000000B: SupportInfo: POST response code for endpoint https://www.axigen.com:443 is 200
+2024-07-19 10:25:15 +0000 08 c3e796b47551 WEBADMIN:0000000B: <1faf0329dace3ff5342370c42bcdf6ee> POST /api?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=576
+2024-07-19 10:25:19 +0000 08 c3e796b47551 WEBADMIN:0000000B: connection closed with [172.18.0.1:37484]
+2024-07-19 10:25:19 +0000 08 c3e796b47551 WEBADMIN:0000000C: connection closed with [172.18.0.1:37500]
+2024-07-19 10:25:19 +0000 08 c3e796b47551 WEBADMIN:00000013: connection closed with [172.18.0.1:44266]
+2024-07-19 10:25:22 +0000 08 c3e796b47551 WEBADMIN:00000014: [172.18.0.5:9000] connection accepted from [172.18.0.1:44268]
+2024-07-19 10:25:22 +0000 08 c3e796b47551 WEBADMIN:00000014: <1faf0329dace3ff5342370c42bcdf6ee> GET /install/assets/images/i-icon.svg HTTP/1.1 u= code=200 time=1
+2024-07-19 10:25:22 +0000 08 c3e796b47551 WEBADMIN:00000015: [172.18.0.5:9000] connection accepted from [172.18.0.1:44272]
+2024-07-19 10:25:22 +0000 08 c3e796b47551 WEBADMIN:00000016: [172.18.0.5:9000] connection accepted from [172.18.0.1:44288]
+2024-07-19 10:25:22 +0000 08 c3e796b47551 WEBADMIN:00000015: Session 0x476493C1 associated with this connection
+2024-07-19 10:25:22 +0000 08 c3e796b47551 WEBADMIN:00000015: SupportInfo: connected to endpoint https://www.axigen.com:443
+2024-07-19 10:25:23 +0000 08 c3e796b47551 WEBADMIN:00000015: SupportInfo: GET response code for endpoint https://www.axigen.com:443 is 200
+2024-07-19 10:25:23 +0000 08 c3e796b47551 WEBADMIN:00000016: Session 0x476493C1 associated with this connection
+2024-07-19 10:25:23 +0000 08 c3e796b47551 WEBADMIN:00000015: <1faf0329dace3ff5342370c42bcdf6ee> POST /api?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=580
+2024-07-19 10:25:23 +0000 08 c3e796b47551 WEBADMIN:00000016: SupportInfo: connected to endpoint https://www.axigen.com:443
+2024-07-19 10:25:23 +0000 08 c3e796b47551 WEBADMIN:00000016: SupportInfo: POST response code for endpoint https://www.axigen.com:443 is 200
+2024-07-19 10:25:23 +0000 08 c3e796b47551 WEBADMIN:00000016: <1faf0329dace3ff5342370c42bcdf6ee> POST /api?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=1140
+2024-07-19 10:25:29 +0000 08 c3e796b47551 WEBADMIN:00000015: connection closed with [172.18.0.1:44272]
+2024-07-19 10:25:29 +0000 08 c3e796b47551 WEBADMIN:00000014: connection closed with [172.18.0.1:44268]
+2024-07-19 10:25:29 +0000 08 c3e796b47551 WEBADMIN:00000016: connection closed with [172.18.0.1:44288]
+2024-07-19 10:26:20 +0000 08 c3e796b47551 WEBADMIN:00000017: [172.18.0.5:9000] connection accepted from [172.18.0.1:49844]
+2024-07-19 10:26:20 +0000 08 c3e796b47551 WEBADMIN:00000017: Session 0x476493C1 associated with this connection
+2024-07-19 10:26:20 +0000 08 c3e796b47551 WEBADMIN:00000017: SupportInfo: connected to endpoint https://www.axigen.com:443
+2024-07-19 10:26:21 +0000 08 c3e796b47551 WEBADMIN:00000017: SupportInfo: POST response code for endpoint https://www.axigen.com:443 is 200
+2024-07-19 10:26:21 +0000 08 c3e796b47551 WEBADMIN:00000017: <1faf0329dace3ff5342370c42bcdf6ee> POST /api?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=1080
+2024-07-19 10:26:24 +0000 08 c3e796b47551 WEBADMIN:00000017: <1faf0329dace3ff5342370c42bcdf6ee> POST /api?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=30
+2024-07-19 10:26:24 +0000 08 c3e796b47551 WEBADMIN:00000017: <1faf0329dace3ff5342370c42bcdf6ee> POST /api?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=0
+2024-07-19 10:26:25 +0000 08 c3e796b47551 WEBADMIN:00000017: <1faf0329dace3ff5342370c42bcdf6ee> POST /api?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=5
+2024-07-19 10:26:26 +0000 08 c3e796b47551 WEBADMIN:00000017: <1faf0329dace3ff5342370c42bcdf6ee> POST /api?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=0
+2024-07-19 10:26:26 +0000 08 c3e796b47551 WEBADMIN:00000017: <1faf0329dace3ff5342370c42bcdf6ee> POST /api?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=0
+2024-07-19 10:26:27 +0000 08 c3e796b47551 WEBADMIN:00000017: <1faf0329dace3ff5342370c42bcdf6ee> POST /api?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=0
+2024-07-19 10:26:27 +0000 04 c3e796b47551 WEBADMIN:00000017: stopping the server.
+2024-07-19 10:26:27 +0000 08 c3e796b47551 WEBADMIN:00000017: connection closed with [172.18.0.1:49844]
+2024-07-19 10:26:27 +0000 02 c3e796b47551 SERVER:00000000: event_base_dispatch returned with 0
+2024-07-19 10:26:28 +0000 08 c3e796b47551 PROCESSING:00000000: Shepherd thread is stopped
+2024-07-19 10:26:31 +0000 08 c3e796b47551 PROCESSING:00000000: Shepherd thread is started
+2024-07-19 10:26:33 +0000 08 c3e796b47551 WEBADMIN:00000001: [172.18.0.5:9000] connection accepted from [172.18.0.1:43028]
+2024-07-19 10:26:33 +0000 08 c3e796b47551 WEBADMIN:00000001: Session 0x476493C1 associated with this connection
+2024-07-19 10:26:33 +0000 08 c3e796b47551 WEBADMIN:00000001: <1faf0329dace3ff5342370c42bcdf6ee> POST /api?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=34
+2024-07-19 10:26:33 +0000 08 c3e796b47551 WEBADMIN:00000001: <1faf0329dace3ff5342370c42bcdf6ee> POST /api?_h=8d0fe682a435e275987d1c16c140878c HTTP/1.1 u=admin code=200 time=32
+2024-07-19 10:26:33 +0000 08 c3e796b47551 WEBADMIN:00000002: [172.18.0.5:9000] connection accepted from [172.18.0.1:43030]
+2024-07-19 10:26:33 +0000 08 c3e796b47551 WEBADMIN:00000003: [172.18.0.5:9000] connection accepted from [172.18.0.1:43036]
+2024-07-19 10:26:33 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: update CLI service configuration
+2024-07-19 10:26:33 +0000 08 c3e796b47551 PROCESSING:00000000: Scanning queue subdirectory /axigen/var/queue//3F
+2024-07-19 10:26:33 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: update CLI service configuration
+2024-07-19 10:26:34 +0000 08 c3e796b47551 PROCESSING:00000000: Queue directory /axigen/var/queue// scan complete: 1 mails found; current queue size: 1
+2024-07-19 10:26:34 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: update FTP service configuration
+2024-07-19 10:26:34 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: update IMAP service configuration
+2024-07-19 10:26:34 +0000 04 c3e796b47551 PROCESSING:003F3BBC: 1 temporary failed recipients; compose temporary NDR
+2024-07-19 10:26:34 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: update IMAP service configuration
+2024-07-19 10:26:35 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: update IMAP service configuration
+2024-07-19 10:26:35 +0000 08 c3e796b47551 WEBADMIN:00000001: previous line is repeated 1 time.
+2024-07-19 10:26:35 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: update SMTP-IN service configuration
+2024-07-19 10:26:36 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: update SMTP-IN service configuration
+2024-07-19 10:26:36 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: update SMTP-IN service configuration
+2024-07-19 10:26:37 +0000 08 c3e796b47551 WEBADMIN:00000001: previous line is repeated 1 time.
+2024-07-19 10:26:37 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: update WEBMAIL service configuration
+2024-07-19 10:26:37 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: update WEBMAIL service configuration
+2024-07-19 10:26:37 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: update WEBMAIL service configuration
+2024-07-19 10:26:39 +0000 08 c3e796b47551 WEBADMIN:00000001: previous line is repeated 2 times.
+2024-07-19 10:26:39 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: submitted request to start module 'SMTP-IN'
+2024-07-19 10:26:39 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: submitted request to start module 'SMTP-OUT'
+2024-07-19 10:26:39 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: submitted request to start module 'IMAP'
+2024-07-19 10:26:39 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: submitted request to start module 'WEBMAIL'
+2024-07-19 10:26:39 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: submitted request to start module 'FTP-BACKUP'
+2024-07-19 10:26:39 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: update server configuration
+2024-07-19 10:26:39 +0000 08 c3e796b47551 WEBMAIL:00000000: Template <default> loaded in 0 seconds; public pages count: 62; private pages count: 518 (loaded in 0 seconds)
+2024-07-19 10:26:39 +0000 08 c3e796b47551 WEBMAIL:00000000: Template HSP files loaded in 0 seconds; pages count: 580
+2024-07-19 10:26:39 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: update IMAP service configuration
+2024-07-19 10:26:40 +0000 08 c3e796b47551 WEBADMIN:00000001: Success: update POP3 service configuration

@@ -1,0 +1,187 @@
+event onConnect {
+	set (allowedCountries_0, " ");
+	set (bannedCountries_0, "");
+	set (isGeoIPBanned_0, "%isGeoIPBanned%");
+	set (GeoIPResult_0, "%GeoIPResult%");
+	call (WA_Acceptance_basic_banner);
+}
+
+event onEhlo {
+	call (WA_Greylisting);
+	call (WA_Acceptance_basic);
+}
+
+event onMailFrom {
+        call (checkSPF);
+        call (WA_AntiSpam_SPF_Fail);
+        call (WA_AntiSpam_SPF_Err);
+        call (WA_AntiSpam_SPF_None);
+	call (Exceptions_Greylisting);
+	call (Exceptions_SPF);
+}
+
+event onRcptTo {
+}
+
+event onHeadersReceived {
+}
+
+event onBodyChunk {
+}
+
+event onDataReceived {
+	call (Check_DomainKeys_and_DKIM);
+}
+
+event onRelay {
+}
+
+event onDeliveryFailure {
+}
+
+event onTemporaryDeliveryFailure {
+}
+
+event onProcessing {
+}
+
+method WA_GeoIP {
+	if (
+		anyOf (
+			isCase (isGeoIPBanned_0, "no")
+		)
+	) {
+	}
+}
+
+method WA_Acceptance_basic_banner {
+}
+
+method WA_AntiSpam_SPF_Fail {
+	if (
+		anyOf (
+			isCase (SPFResult, "fail")
+		)
+	) {
+		set (smtpAction, "reject");
+		set (smtpExplanation, "SPF check failed for <%ehloHost%> with result <%SPFResult%>: <%SPFExplanation%>");
+	}
+}
+
+method WA_AntiSpam_SPF_Err {
+	if (
+		anyOf (
+			isCase (SPFResult, "temperror"),
+			isCase (SPFResult, "permerror")
+		)
+	) {
+	}
+}
+
+method WA_AntiSpam_SPF_None {
+	if (
+		anyOf (
+			isCase (SPFResult, "none")
+		)
+	) {
+	}
+}
+
+method WA_AntiSpam_SPF_OnEhlo_Fail {
+	if (
+		anyOf (
+			isCase (SPFResult, "fail")
+		)
+	) {
+		set (smtpAction, "reject");
+		set (smtpExplanation, "SPF check failed for <%ehloHost%> with result <%SPFResult%>: <%SPFExplanation%>");
+	}
+}
+
+method WA_AntiSpam_SPF_OnEhlo_Err {
+	if (
+		anyOf (
+			isCase (SPFResult, "temperror"),
+			isCase (SPFResult, "permerror")
+		)
+	) {
+	}
+}
+
+method WA_AntiSpam_SPF_OnEhlo_None {
+	if (
+		anyOf (
+			isCase (SPFResult, "none")
+		)
+	) {
+	}
+}
+
+method WA_Greylisting {
+	set (activateGreylisting, "yes");
+}
+
+method WA_Acceptance_basic {
+	set (maxDataSize, "10240");
+	set (maxReceivedHeaders, "30");
+	set (maxRcptCount, "1000");
+	set (waitProcessingTimeout, "10");
+	set (allowStartTLS, "yes");
+	set (allow8bitMime, "yes");
+	set (allowBinaryData, "yes");
+	set (allowPipelining, "yes");
+	set (localDelivery, "all");
+}
+
+method WA_DNS_Checks_RDNS {
+	if (
+		anyOf (
+			isCase (ReverseDNSResult, "neutral"),
+			isCase (ReverseDNSResult, "fail")
+		)
+	) {
+		set (smtpAction, "reject");
+		set (smtpExplanation, "Reverse DNS check failed for <%ehloHost%> connected from <%remoteSmtpIp%>");
+	}
+}
+
+method WA_DNS_Checks_MX {
+	if (
+		anyOf (
+			isCase (SenderMXCheckResult, "fail")
+		)
+	) {
+		set (smtpAction, "reject");
+		set (smtpExplanation, "Sender domain <%mailFromDomain%> has no DNS MX entry");
+	}
+}
+
+method Exceptions_Greylisting {
+	if (
+		anyOf (
+			ipRange (remoteSmtpIP, "127.0.0.1-127.0.0.1"),
+			isCase (mailFromDomain, "gmail.com"),
+			isCase (mailFromDomain, "yahoo.com")
+		)
+	) {
+		set (activateGreylisting, "no");
+	}
+}
+
+method Exceptions_SPF {
+        if (
+                anyOf (
+                        isCase (mailFromDomain, "domain1.tld"),
+                        isCase (mailFromDomain, "domain2.tld")
+                )
+        ) {
+                set (smtpAction, "accept");
+                set (smtpExplanation, "Accepted due to requested SPF exception");
+        }
+}
+
+method Check_DomainKeys_and_DKIM {
+	call (checkDomainKeys);
+	call (checkDKIM);
+}
+
