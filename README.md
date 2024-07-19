@@ -14,8 +14,6 @@ pointe pour sécuriser, gérer et optimiser les actifs numériques de ses client
 
 ## II - Présentation du projet
 
-### II - Présentation du projet
-
 Le projet consiste en la conception et la mise en place d'une infrastructure réseau (composition de plusieurs services) innovante visant à répondre aux besoins croissants de notre clientèle, notamment une application web. Le service web représente une opportunité unique pour notre entreprise de renforcer sa présence en ligne, d'interagir plus efficacement avec nos clients et de fournir des solutions personnalisées et adaptées à leurs besoins spécifiques.
 
 Le contexte du projet est le déploiement de microservices au travers des technologies de conteneurisation.
@@ -42,7 +40,7 @@ Le contexte du projet est le déploiement de microservices au travers des techno
 
  [https://github.com/shamuz-sa/DataShield_Entreprise](https://github.com/shamuz-sa/DataShield_Entreprise)
 
-Une fois sur le lien de notre projet, il faut première cloner le projet en local chez vous avant de faire quoi que ce soit en tapant la commande : 
+Une fois sur le lien de notre projet, il faut premièrement cloner le projet en local chez vous avant de faire quoi que ce soit en tapant la commande : 
 
 ```jsx
 git clone https://github.com/shamuz-sa/DataShield_Entreprise.git
