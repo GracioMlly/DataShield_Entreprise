@@ -1,15 +1,15 @@
-# DATA SHIELD DOCUMENTATION
+# DATASHIELD DOCUMENTATION
 
 ## I - Présentation de l'entreprise
 
-Data Shield est une entreprise informatique composée de 04 personnes avec des compétences différentes à savoir:
+Datashield est une entreprise informatique composée de 04 personnes avec des compétences différentes à savoir:
 
 - ATCHEMI Djori Succès: Développeur, Data Scientist, Administrateur de base de donnée & Chef Projet
 - BILAZA Tchaa Jeff: Développeur, Expert en Cybersécurité
 - BISSIALO Lénica Lucie: Experte en Cybersécurité
 - MALLY Théophile Gracio: Ingénieur Génie Logiciel, DevOps
 
-Data Shield s'engage à fournir une gamme complète de services informatiques spécialisés, répondant ainsi aux besoins évolutifs de ses clients dans un environnement numérique en constante évolution. Doté d'une expertise solide en analyse de données, sécurité informatique, cybersécurité, administration et audit des bases de données, Data Shield est déterminé à offrir des solutions de
+Datashield s'engage à fournir une gamme complète de services informatiques spécialisés, répondant ainsi aux besoins évolutifs de ses clients dans un environnement numérique en constante évolution. Doté d'une expertise solide en analyse de données, sécurité informatique, cybersécurité, administration et audit des bases de données, Data Shield est déterminé à offrir des solutions de
 pointe pour sécuriser, gérer et optimiser les actifs numériques de ses clients.
 
 ## II - Présentation du projet
@@ -40,35 +40,40 @@ Le contexte du projet est le déploiement de microservices au travers des techno
 
  [https://github.com/shamuz-sa/DataShield_Entreprise](https://github.com/shamuz-sa/DataShield_Entreprise)
 
-Une fois sur le lien de notre projet, il faut premièrement cloner le projet en local chez vous avant de faire quoi que ce soit en tapant la commande : 
+Une fois sur le lien de notre projet, il faut premièrement le cloner en local en tapant dans le terminal la commande suivante :
 
-```jsx
+```bash
 git clone https://github.com/shamuz-sa/DataShield_Entreprise.git
 ```
 
-Après avoir cloné le projet, il faut ouvrir le dossier du projet dans votre terminal suivant le chemin: 
+Après clonage, toujours dans le terminal il faut se positionner dans le dossier du projet en suivant le chemin :
 
-```jsx
+```bash
 cd chemin_vers_le_dossier/DataShield_Entreprise
 ```
 
-Il faut s’assurer d’avoir docker et docker-compose installé sur sa machine:
+**⚠️** **A partir de cette étape Il faut s’assurer d’avoir docker et docker compose installé sur sa machine avant de continuer**
 
-ensuite il faut taper la commande suivante : 
+Pour construire les images docker et lancer les conteneurs de nos services, il faut taper la commande suivante :
 
-```jsx
+```docker
 docker-compose up --build
 ```
 
-Une fois lancé et que tous les services on correctement démarré, on accede premièrement à notre site web via le lien suivant:
+Une fois que que tous les conteneurs seront créés et lancés, il faudra impérativement configurer sa machine (précisément sa carte réseau) afin d'utiliser le service DNS qui tourne actuellement dans le container dns. La configuration de la carte réseau divers d’un système à l’autre (Windows, MacOs, Linux…). Prière de se référer aux spécificités de son système.
 
-```jsx
+Le service DNS a pour adresse XXX.XXX.XXX.XXX
+
+
+Une fois le DNS configuré sur sa machine, on peut accéder à notre site web à l'adresse suivante :
+
+```
 webapp.datashield.io
 ```
 
-Ensuite on accède a notre serveur de messagerie via le lien suivant: 
+Notre serveur de messagerie est accessible quant à elle à cette adresse :
 
-```jsx
+```
 127.0.0.1:555
 ```
 
@@ -82,8 +87,8 @@ Le cahier des charges est le fichier Cahier_Des_Charges.pdf dans le ficher DataS
 
 ### 4 - Vidéo de présentation
 
-Une courte vidéo pour expliquer le projet et la gestion de l’équipe projet
+Une courte vidéo pour expliquer le projet et la gestion de l’équipe projet.
 
 ### 5- Code python
 
-Il s’agit d’un code python qui nous permettre de faire des manipulations sur notre base de donnée qui contient des données cliente
+Il s’agit d’un code python qui nous permettra de faire des manipulations sur notre base de donnée qui contient des données clientes.
