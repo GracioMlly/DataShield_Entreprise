@@ -62,7 +62,7 @@ docker-compose up --build
 
 Une fois que que tous les conteneurs seront créés et lancés, il faudra impérativement configurer sa machine (précisément sa carte réseau) afin d'utiliser le service DNS qui tourne actuellement dans le container dns. La configuration de la carte réseau divers d’un système à l’autre (Windows, MacOs, Linux…). Prière de se référer aux spécificités de son système.
 
-Le service DNS a pour adresse XXX.XXX.XXX.XXX
+Le service DNS a pour adresse 127.0.0.1
 
 
 Une fois le DNS configuré sur sa machine, on peut accéder à notre site web à l'adresse suivante :
